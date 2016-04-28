@@ -1,0 +1,11 @@
+vagrant-list:
+https://github.com/joshmcarthur/vagrant-list
+vagrant plugin install vagrant-list
+run with vagrant list
+
+vagrant-scp:
+https://github.com/invernizzi/vagrant-scp
+vagrant scp <some_local_file_or_dir> <somewhere_on_the_vm>
+vagrant scp <some_local_file_or_dir> [vm_name]:<somewhere_on_the_vm>
+vagrant scp [vm_name]:<somewhere_on_the_vm> <some_local_file_or_dir>
+
